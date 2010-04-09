@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'opentumblr-cocoa' target in the 'opentumblr-cocoa' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
