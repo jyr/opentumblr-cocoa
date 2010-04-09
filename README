@@ -1,0 +1,11 @@
+OpenTumblr
+Es un cliente multiplataforma desarrollado en wxpython
+
+REQUERIMIENTOS
+- python-tumblr ( http://code.google.com/p/python-tumblr/ )
+- simplejson ( http://code.google.com/p/simplejson/ ) 
+- wxpython
+- python, por supuesto
+
+AGRADECIMIENTOS
+	- ziked.com por las imagenes de tumblr
