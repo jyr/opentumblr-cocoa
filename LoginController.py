@@ -43,5 +43,4 @@ class LoginController(NSWindowController):
     def destroy(self):
 		app = NSApplication.sharedApplication()
 		appdelegate = app.delegate()
-		print dir(appdelegate.w)
 		appdelegate.w.close()
