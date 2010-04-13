@@ -2,7 +2,7 @@
 #  main.py
 #  opentumblr-cocoa
 #
-#  Created by Jair Gaxiola on 08/04/10.
+#  Created by Jair Gaxiola on 11/04/10.
 #  Copyright __MyCompanyName__ 2010. All rights reserved.
 #
 
@@ -13,6 +13,7 @@ import AppKit
 
 from PyObjCTools import AppHelper
 
+import LoginController
 # import modules containing classes required to start application and load MainMenu.nib
 import opentumblr_cocoaAppDelegate
 
