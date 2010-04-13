@@ -72,10 +72,7 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				4E4DA4EF1174D09000338C47 /* LoginController.py */,
-				4E4DA5311174E0C900338C47 /* tumblr.py */,
-				4E4DA5111174D4DF00338C47 /* DashboardController.py */,
-				7790198E0C07548A00326F66 /* opentumblr_cocoaAppDelegate.py */,
+				4E95E76D1174F70B006FC209 /* opentumblr */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -110,14 +107,7 @@
 		29B97314FDCFA39411CA2CEA /* opentumblr-cocoa */ = {
 			isa = PBXGroup;
 			children = (
-				4E4DA53F1174E30F00338C47 /* audiomac.icns */,
-				4E4DA5401174E31000338C47 /* chatmac.icns */,
-				4E4DA5411174E31000338C47 /* linkmac.icns */,
-				4E4DA5421174E31000338C47 /* photomac.icns */,
-				4E4DA5431174E31000338C47 /* quotemac.icns */,
-				4E4DA5441174E31000338C47 /* textmac.icns */,
-				4E4DA5451174E31000338C47 /* videomac.icns */,
-				4E4DA5271174DD4000338C47 /* opentumblr.png */,
+				4E95E7651174F6A4006FC209 /* images */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -155,6 +145,32 @@
 				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4E95E7651174F6A4006FC209 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				4E4DA5401174E31000338C47 /* chatmac.icns */,
+				4E4DA5411174E31000338C47 /* linkmac.icns */,
+				4E4DA5421174E31000338C47 /* photomac.icns */,
+				4E4DA5431174E31000338C47 /* quotemac.icns */,
+				4E4DA5441174E31000338C47 /* textmac.icns */,
+				4E4DA5451174E31000338C47 /* videomac.icns */,
+				4E4DA53F1174E30F00338C47 /* audiomac.icns */,
+				4E4DA5271174DD4000338C47 /* opentumblr.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		4E95E76D1174F70B006FC209 /* opentumblr */ = {
+			isa = PBXGroup;
+			children = (
+				4E4DA5111174D4DF00338C47 /* DashboardController.py */,
+				4E4DA5311174E0C900338C47 /* tumblr.py */,
+				7790198E0C07548A00326F66 /* opentumblr_cocoaAppDelegate.py */,
+				4E4DA4EF1174D09000338C47 /* LoginController.py */,
+			);
+			name = opentumblr;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

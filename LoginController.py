@@ -23,15 +23,11 @@ class LoginController(NSWindowController):
 		self.b = self.blog.stringValue()
 		self.api = Api(self.b, self.u, self.p)
 		NSLog("Blog %s, User %s , Password  %s" % (self.b, self.u, self.p))
-		#DashboardController.show()
 		try:
 			self.auth = self.api.auth_check()
-			#print dir(self)
 			self.destroy()
 			DashboardController.show()
 		except tumblr.TumblrAuthError:
-			#self.invalid = Invalid(self)
-			#self.invalid.show_()
 			print self.errors['403']
 		except tumblr.TumblrError(self):
 			print self.errors['404']
