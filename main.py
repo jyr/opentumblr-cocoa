@@ -14,6 +14,8 @@ import AppKit
 from PyObjCTools import AppHelper
 
 import LoginController
+import DashboardView
+import TextView
 # import modules containing classes required to start application and load MainMenu.nib
 import opentumblr_cocoaAppDelegate
 
