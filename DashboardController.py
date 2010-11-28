@@ -1,62 +1,68 @@
 from Foundation import *
 from AppKit import *
 import objc
-from DashboardWindow import *
-from TextView import *
 
-class DashboardController (NSWindowController):
-    def init(self):
-		return self.initWithWindowNibName_('Dashboard')
-
+class DashboardController (NSViewController):
+		
     def show(self):
-		w = DashboardController.alloc().init()
-		w.showWindow_(self)
-		w.retain()
-		#print dir(w)
+		self.window = NSWindow.alloc().init()
+		self.DashboardViewController = NSViewController.alloc().initWithNibName_bundle_("Dashboard", None)
+		self.dashboardView = self.DashboardViewController.view()
     show = classmethod(show)
+	
+    def resetSubviews(self):
+		for i in range(1, len(self.dashboardView.subviews())):
+			self.dashboardView.subviews().removeObjectAtIndex_(i)
 
     @objc.IBAction
     def audio_(self, sender):
-		print ""
-
+		self.resetSubviews()
+		self.AudioViewController = NSViewController.alloc().initWithNibName_bundle_("Audio", None)
+		self.audioView = self.AudioViewController.view()
+		self.dashboardView.addSubview_(self.audioView)
+		
     @objc.IBAction
     def chat_(self, sender):
-		print ""
-		
+		self.resetSubviews()
+		self.ChatViewController = NSViewController.alloc().initWithNibName_bundle_("Chat", None)
+		self.chatView = self.ChatViewController.view()
+		self.dashboardView.addSubview_(self.chatView)
+				
     @objc.IBAction
     def link_(self, sender):
-		print ""
-		
+		self.resetSubviews()
+		self.LinkViewController = NSViewController.alloc().initWithNibName_bundle_("Link", None)
+		self.linkView = self.LinkViewController.view()
+		self.dashboardView.addSubview_(self.linkView)
+				
     @objc.IBAction
     def logout_(self, sender):
 		NSApp().terminate_(self)
 		
     @objc.IBAction
     def photo_(self, sender):
-		print ""
+		self.resetSubviews()
+		self.PhotoViewController = NSViewController.alloc().initWithNibName_bundle_("Photo", None)
+		self.photoView = self.PhotoViewController.view()
+		self.dashboardView.addSubview_(self.photoView)
 		
     @objc.IBAction
     def quote_(self, sender):
-		print ""
-		
+		self.resetSubviews()
+		self.QuoteViewController = NSViewController.alloc().initWithNibName_bundle_("Quote", None)
+		self.quoteView = self.QuoteViewController.view()
+		self.dashboardView.addSubview_(self.quoteView)
+				
     @objc.IBAction
     def text_(self, sender):
-		print ""
-		#print dir(DashboardWindow)
-		#print dir(TextView)
-		graphicsRect = NSMakeRect(100.0, 350.0, 450.0, 400.0)
-		self.TextView = TextView.alloc().initWithFrame_(graphicsRect)
-		#print dir(self.TextView)
-		self.DashboardWindow = DashboardWindow.alloc().init()
-		#print dir(self.DashboardWindow)
-		self.DashboardWindow.setContentView_(self.TextView)
-		self.DashboardWindow.display()
-		#delegate = AppDelegate.alloc().init()
-		#self.DashboardWindow.setDelegate_(delegate)
-		#self.DashboardWindow.makeKeyAndOrderFront_(self) #abre una ventana
-		#self.DashboardWindow.showWindow_(self) #abre una ventana
-		#self.DashboardWindow.makeFirstResponder_(self.TextView)
-		
+		self.resetSubviews()
+		self.TextViewController = NSViewController.alloc().initWithNibName_bundle_("Text", None)
+		self.textView = self.TextViewController.view()
+		self.dashboardView.addSubview_(self.textView)
+
     @objc.IBAction
     def video_(self, sender):
-		print ""
+		self.resetSubviews()
+		self.VideoViewController = NSViewController.alloc().initWithNibName_bundle_("Video", None)
+		self.videoView = self.VideoViewController.view()
+		self.dashboardView.addSubview_(self.videoView)

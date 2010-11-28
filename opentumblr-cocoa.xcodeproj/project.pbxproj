@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E0B1D2412A1A37F00E3F602 /* Photo.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E0B1D2312A1A37F00E3F602 /* Photo.xib */; };
+		4E0B1F6212A2075800E3F602 /* Quote.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E0B1F6112A2075800E3F602 /* Quote.xib */; };
+		4E0B1F6D12A2095300E3F602 /* Link.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E0B1F6C12A2095300E3F602 /* Link.xib */; };
+		4E0B1F7412A20B4900E3F602 /* Chat.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E0B1F7312A20B4900E3F602 /* Chat.xib */; };
+		4E0B1F8012A2145B00E3F602 /* Audio.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E0B1F7F12A2145B00E3F602 /* Audio.xib */; };
+		4E0B1F8C12A2160000E3F602 /* Video.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E0B1F8B12A2160000E3F602 /* Video.xib */; };
 		4E4DA4F01174D09000338C47 /* LoginController.py in Resources */ = {isa = PBXBuildFile; fileRef = 4E4DA4EF1174D09000338C47 /* LoginController.py */; };
 		4E4DA4F41174D15300338C47 /* Dashboard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E4DA4F31174D15300338C47 /* Dashboard.xib */; };
 		4E4DA5121174D4DF00338C47 /* DashboardController.py in Resources */ = {isa = PBXBuildFile; fileRef = 4E4DA5111174D4DF00338C47 /* DashboardController.py */; };
@@ -19,6 +25,8 @@
 		4E4DA54A1174E31000338C47 /* quotemac.icns in Resources */ = {isa = PBXBuildFile; fileRef = 4E4DA5431174E31000338C47 /* quotemac.icns */; };
 		4E4DA54B1174E31000338C47 /* textmac.icns in Resources */ = {isa = PBXBuildFile; fileRef = 4E4DA5441174E31000338C47 /* textmac.icns */; };
 		4E4DA54C1174E31000338C47 /* videomac.icns in Resources */ = {isa = PBXBuildFile; fileRef = 4E4DA5451174E31000338C47 /* videomac.icns */; };
+		4EF4F8F5129F9B4E00091FE8 /* Text.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4EF4F8F4129F9B4E00091FE8 /* Text.xib */; };
+		4EF4F8F7129F9B7400091FE8 /* TextViewController.py in Resources */ = {isa = PBXBuildFile; fileRef = 4EF4F8F6129F9B7400091FE8 /* TextViewController.py */; };
 		77631A270C06C501005415CB /* Python.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77631A260C06C501005415CB /* Python.framework */; };
 		77631A3F0C0748CF005415CB /* main.py in Resources */ = {isa = PBXBuildFile; fileRef = 77631A3E0C0748CF005415CB /* main.py */; };
 		7790198F0C07548A00326F66 /* opentumblr_cocoaAppDelegate.py in Resources */ = {isa = PBXBuildFile; fileRef = 7790198E0C07548A00326F66 /* opentumblr_cocoaAppDelegate.py */; };
@@ -36,6 +44,12 @@
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		32CA4F630368D1EE00C91783 /* opentumblr_cocoa_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opentumblr_cocoa_Prefix.pch; sourceTree = "<group>"; };
+		4E0B1D2312A1A37F00E3F602 /* Photo.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Photo.xib; sourceTree = "<group>"; };
+		4E0B1F6112A2075800E3F602 /* Quote.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Quote.xib; sourceTree = "<group>"; };
+		4E0B1F6C12A2095300E3F602 /* Link.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Link.xib; sourceTree = "<group>"; };
+		4E0B1F7312A20B4900E3F602 /* Chat.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Chat.xib; sourceTree = "<group>"; };
+		4E0B1F7F12A2145B00E3F602 /* Audio.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Audio.xib; sourceTree = "<group>"; };
+		4E0B1F8B12A2160000E3F602 /* Video.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Video.xib; sourceTree = "<group>"; };
 		4E4DA4EF1174D09000338C47 /* LoginController.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = LoginController.py; sourceTree = "<group>"; };
 		4E4DA4F31174D15300338C47 /* Dashboard.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Dashboard.xib; sourceTree = "<group>"; };
 		4E4DA5111174D4DF00338C47 /* DashboardController.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = DashboardController.py; sourceTree = "<group>"; };
@@ -48,6 +62,8 @@
 		4E4DA5431174E31000338C47 /* quotemac.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = quotemac.icns; sourceTree = "<group>"; };
 		4E4DA5441174E31000338C47 /* textmac.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = textmac.icns; sourceTree = "<group>"; };
 		4E4DA5451174E31000338C47 /* videomac.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = videomac.icns; sourceTree = "<group>"; };
+		4EF4F8F4129F9B4E00091FE8 /* Text.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Text.xib; sourceTree = "<group>"; };
+		4EF4F8F6129F9B7400091FE8 /* TextViewController.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = TextViewController.py; sourceTree = "<group>"; };
 		77631A260C06C501005415CB /* Python.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Python.framework; path = /System/Library/Frameworks/Python.framework; sourceTree = "<absolute>"; };
 		77631A3E0C0748CF005415CB /* main.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = main.py; sourceTree = "<group>"; };
 		7790198E0C07548A00326F66 /* opentumblr_cocoaAppDelegate.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = opentumblr_cocoaAppDelegate.py; sourceTree = "<group>"; };
@@ -114,6 +130,9 @@
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
 				4E4DA4F31174D15300338C47 /* Dashboard.xib */,
+				4EF4F8F4129F9B4E00091FE8 /* Text.xib */,
+				4EF4F8F6129F9B7400091FE8 /* TextViewController.py */,
+				4E0B1D2312A1A37F00E3F602 /* Photo.xib */,
 			);
 			name = "opentumblr-cocoa";
 			sourceTree = "<group>";
@@ -165,6 +184,11 @@
 		4E95E76D1174F70B006FC209 /* opentumblr */ = {
 			isa = PBXGroup;
 			children = (
+				4E0B1F8B12A2160000E3F602 /* Video.xib */,
+				4E0B1F7F12A2145B00E3F602 /* Audio.xib */,
+				4E0B1F7312A20B4900E3F602 /* Chat.xib */,
+				4E0B1F6C12A2095300E3F602 /* Link.xib */,
+				4E0B1F6112A2075800E3F602 /* Quote.xib */,
 				4E4DA5111174D4DF00338C47 /* DashboardController.py */,
 				4E4DA5311174E0C900338C47 /* tumblr.py */,
 				7790198E0C07548A00326F66 /* opentumblr_cocoaAppDelegate.py */,
@@ -201,7 +225,14 @@
 			isa = PBXProject;
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "opentumblr-cocoa" */;
 			compatibilityVersion = "Xcode 3.0";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* opentumblr-cocoa */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -232,6 +263,14 @@
 				4E4DA54A1174E31000338C47 /* quotemac.icns in Resources */,
 				4E4DA54B1174E31000338C47 /* textmac.icns in Resources */,
 				4E4DA54C1174E31000338C47 /* videomac.icns in Resources */,
+				4EF4F8F5129F9B4E00091FE8 /* Text.xib in Resources */,
+				4EF4F8F7129F9B7400091FE8 /* TextViewController.py in Resources */,
+				4E0B1D2412A1A37F00E3F602 /* Photo.xib in Resources */,
+				4E0B1F6212A2075800E3F602 /* Quote.xib in Resources */,
+				4E0B1F6D12A2095300E3F602 /* Link.xib in Resources */,
+				4E0B1F7412A20B4900E3F602 /* Chat.xib in Resources */,
+				4E0B1F8012A2145B00E3F602 /* Audio.xib in Resources */,
+				4E0B1F8C12A2160000E3F602 /* Video.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
